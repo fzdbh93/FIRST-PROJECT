@@ -1,0 +1,195 @@
+/* STAR NAV SECTION */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    height: 2000px;
+}
+
+ul {
+    background-color: rgb(19, 19, 78);
+    height: 100px;
+    margin-top: 30px;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+ul li:hover {
+    background-color: rgb(14, 138, 117);
+}
+
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/* START HERO SECTION */
+
+.hero {
+    margin-bottom: 50px;
+    padding: 100px;
+    background-image: url(../Images/img3.JPEG);
+    height: 200px;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* STAR ABOUT US SECTION */
+.about_us{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.about_us h1{
+    margin-bottom: 30px;
+    color: rgb(19, 19, 78);
+    font-size: 35px;
+}
+
+.all-box{
+    display: flex;
+}
+
+.box{
+    width: 30%;
+    background-color:rgb(226, 222, 222) ;
+    margin: auto;
+    text-align: center;
+    height:180px;
+    padding:10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow: 10px 10px 10px royalblue
+}
+
+i {
+    background-color: rgb(67, 190, 190);
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box h3 {
+    font-size: 25px;
+    color: rgb(16, 16, 97);
+    margin-top: 20px;
+
+}
+
+.box p {
+
+}
+
+.content {
+    text-align: center;
+    width: 80%;
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+    color: rgb(19, 19, 78);
+    font-size: 35px;
+
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content img {
+    width: 300px;
+}
+
+
+/* START CONTACT US SECTION */
+
+.contact-us {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.contact-us .contact-form {
+    width: 700px;
+    background-color:rgb(14, 138, 117);
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+
+
+}
+
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.input-form input:focus {
+    border:1px solid black ;
+    outline: none;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.btn-send {
+    background-color: rgb(16, 16, 97);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border:1px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+.btn-send:hover {
+    background-color:rgb(70, 70, 247); ;
+}
